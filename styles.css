@@ -2,6 +2,15 @@ body {
 	background-color: #f0f8f0;
 }
 
+header {
+	background-color: #d0f0c0;
+}
+
+main {
+	padding: 10px;
+	border: 2px solid green;
+}
+
 h1 {
 	color: green;
 }
@@ -17,3 +26,8 @@ p {
 section{
 	background-color: #dff0d8;
 }
+
+.statistics-title{
+	color: blue;
+}
+
