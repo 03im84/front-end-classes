@@ -3,6 +3,7 @@ body {
 }
 
 header {
+	margin-bottom: 20px;
 	background-color: #d0f0c0;
 }
 
@@ -24,6 +25,7 @@ p {
 }
 
 section{
+	margin-top: 15px;
 	background-color: #dff0d8;
 }
 
