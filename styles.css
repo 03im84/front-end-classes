@@ -9,3 +9,11 @@ h1 {
 h2 {
 	color: darkgreen;
 }
+
+p {
+	color: #333;
+}
+
+section{
+	background-color: #dff0d8;
+}
