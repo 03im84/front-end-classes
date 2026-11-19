@@ -35,6 +35,15 @@ section{
 .statistics-container{
 	display: flex;
 	gap: 20px;
+
+	justify-content: space-between;
+}
+
+.statistics-container div{
+	border: 1px solid green;
+	padding: 10px;
+
+	background-color: white;
 }
 
 .statistics-title{
