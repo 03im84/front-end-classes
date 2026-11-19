@@ -41,12 +41,16 @@ section{
 }
 
 .statistics-container div{
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	border-radius: 8px;
-	padding: 10px;
+	
+	padding: 20px;
+	
 	background-color: white;
 
 	flex-grow: 1;
+	
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 
 	text-align: center;
 }
