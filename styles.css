@@ -41,6 +41,7 @@ section{
 
 .statistics-container div{
 	border: 1px solid green;
+	border-radius: 8px;
 	padding: 10px;
 	background-color: white;
 
