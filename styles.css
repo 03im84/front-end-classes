@@ -42,10 +42,11 @@ section{
 .statistics-container div{
 	border: 1px solid green;
 	padding: 10px;
-
 	background-color: white;
 
 	flex-grow: 1;
+
+	text-align: center;
 }
 
 .statistics-title{
