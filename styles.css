@@ -4,15 +4,43 @@ body {
 
 header {
 	margin-bottom: 20px;
+	padding: 10px;
 	background-color: #d0f0c0;
 
 	display: flex;
 	flex-direction: column;
 }
 
+#main-container{
+		min-width: 520px;
+
+		margin-bottom: 20px;
+		
+        display: flex;
+        gap: 20px
+}
+
+nav {
+	border: 2px solid black;
+	padding: 10px;
+	
+	flex-basis: 20%;
+	flex-shrink: 0;
+	flex-grow: 1;
+}
+
+nav h2 {
+        text-align: center;
+}
+
 main {
+
 	padding: 10px;
 	border: 2px solid green;
+
+	flex-basis: 80%;
+	flex-shrink: 1;
+	flex-grow: 4;
 }
 
 h1 {
@@ -34,21 +62,23 @@ section{
 
 .statistics-container{
 	display: flex;
+	flex-wrap: wrap;
 	gap: 20px;
 
 	justify-content: space-between;
 	align-items: stretch;
 }
 
-.statistics-container div{
-	/*border: 1px solid green;*/
+.statistics-card {
+	min-width: 250px;
+	border: 1px solid green;
 	border-radius: 8px;
 	
 	padding: 20px;
 	
 	background-color: white;
 
-	flex-grow: 1;
+	flex: 1;
 	
 	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 
@@ -59,3 +89,11 @@ section{
 	color: blue;
 }
 
+
+footer{
+	min-height: 10%;
+
+	padding: 20px;
+
+	background-color: #dff0d8;
+}
